@@ -1,0 +1,358 @@
+@font-face
+{
+  src: url('../fonts/Nexa Bold.otf');
+  font-family: 'Nexa';
+  }
+   @font-face 
+   {
+	src: url('../fonts/master_of_break.ttf');
+	font-family: 'master_of_break';
+	}
+	 @font-face {
+	src: url('../fonts/NexaRustSans-Black.otf');
+	font-family: 'NexaRustSans';
+	}	
+@font-face {
+  src: url('../fonts/gotham.ttf');
+  font-family: 'gotham';
+  }
+.deskjumbotron 
+ {
+    background-image: url(../images/ny.jpg);
+    color: white;
+    min-width:80vw; 
+    min-height:100vh;  
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+ul
+ {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Nexa';
+    font-size: 3vh;
+}
+li a:hover
+{
+	color:#fc6d49 ;
+}
+.musicquote
+{
+	color:#fc6d49 ;
+	position: absolute;
+	left:22%;
+	top: 45%;
+	font-size: 15vh; 
+	 font-family: 'Nexa';
+}
+.music1
+{
+             background-image: url(../images/grid1.jpg);
+             background-repeat: no-repeat;
+             background-position: center;
+             background-size: cover;
+             width: 100%;
+             height: 100%;
+             height: 25vw;
+             overflow: hidden;
+             color: white;
+             position: relative;
+             
+}
+.music2
+{
+             background-image: url(../images/grid2.jpg);
+             background-repeat: no-repeat;
+             background-position: center;
+             background-size: cover;
+             width: 100%;
+             height: 100%;
+             height: 25vw;
+             overflow: hidden;
+             color: white;
+             position: relative;
+             
+}
+.music3
+{
+             background-image: url(../images/chicago.jpg);
+             background-repeat: no-repeat;
+             background-position: center;
+             background-size: cover;
+             width: 100%;
+             height: 100%;
+             height: 25vw;
+             overflow: hidden;
+             color: white;
+             position: relative;
+             
+}
+.music4
+{
+             background-image: url(../images/mu1.jpg);
+             background-repeat: no-repeat;
+             background-position: center;
+             background-size: cover;
+             width: 100%;
+             height: 100%;
+             height: 25vw;
+             overflow: hidden;
+             color: white;
+             position: relative;
+             
+}
+.music5
+{
+             background-image: url(../images/mu5.jpg);
+             background-repeat: no-repeat;
+             background-position: center;
+             background-size: cover;
+             width: 100%;
+             height: 100%;
+             height: 25vw;
+             overflow: hidden;
+             color: white;
+             position: relative;
+             
+}
+.music6
+{
+             background-image: url(../images/phone.jpg);
+             background-repeat: no-repeat;
+             background-position: center;
+             background-size: cover;
+             width: 100%;
+             height: 100%;
+             height: 25vw;
+             overflow: hidden;
+             color: white;
+             position: relative;
+             
+}
+.quote
+{
+    background-color:#fc6d49 ;
+/*background-color: #813772;*/
+/*background: #CF6766;*/
+/*background-color: #49274A;*/
+/*background-color: #94618E;*/
+color: white;
+font-size: 5vh;
+text-align: center;
+padding-top:10%;
+padding-bottom:10%;
+font-family: 'Special Elite', cursive;
+}
+.container {
+      padding: 80px 120px;
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+      /*-webkit-filter: grayscale(90%);
+      filter: grayscale(90%);*/ /* make all photos black and white */
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  #myCarousel
+  {
+    position: relative;
+  }
+  .carousel-indicators
+  {
+    position: absolute;
+    left: 22%;
+    top:95%;
+  }
+  .text
+  {
+position: absolute;
+top: 36%;
+left: 35%;
+font-family: 'Ruslan Display', cursive;
+font-size: 7vh;
+  }
+  .maingrid
+  {
+    position: relative;
+  }
+  .voilent
+ {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 10;
+}
+.voilent:hover 
+{
+    background-color: rgba(0,0,255,1);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.anim
+{
+    transition: all 0.5s;
+}
+.orange
+ {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 10;
+}
+.orange:hover 
+{
+    background-color: rgba(255,127,080,1);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.orange1
+ {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 10;
+}
+.orange1:hover 
+{
+    background-color: #3CC47C;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.orange1
+ {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 10;
+}
+.orange1:hover 
+{
+    background-color: #3CC47C;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.yellow
+ {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 10;
+}
+.yellow:hover 
+{
+    background-color: #F7C331;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.fresh
+ {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 10;
+}
+.fresh:hover 
+{
+    background-color: #CCDFCB;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.grass
+ {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 10;
+}
+.grass:hover 
+{
+    background-color:#F24C4E;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.footer
+{
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom:1%;
+  background-color:#E52A6F;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 3vh;
+}
+.image1
+{
+  padding-top:0%;
+  left: 0%;
+  position: absolute; 
+}
+
+
+
+
+
+
+

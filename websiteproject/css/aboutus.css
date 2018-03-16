@@ -1,0 +1,41 @@
+.jumbotron {
+      background-color:#E52A6F;
+      color: #fff;
+  }
+ .footer
+{
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom:1%;
+  background-color:#E52A6F;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 3vh;
+}
+
+.centered-form{
+	margin-top: 60px;
+}
+
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+.parallax {
+    background-image: url(../images/ab.jpg);
+    min-width:80vw; 
+    min-height:85vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.padd
+{
+	padding-top:2%; 
+	padding-bottom:5%;
+}
+.padd1
+{
+	padding-top:8%;
+}

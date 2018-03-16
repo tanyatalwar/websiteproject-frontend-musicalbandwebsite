@@ -1,0 +1,98 @@
+.deskjumbotron 
+ {
+    background-image: url(../images/dance.jpg);
+    color: white;
+    min-width:80vw; 
+    min-height:90vh;  
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .heading
+  {
+  	position: absolute;
+  	top: 55%;
+  	left: 55%;
+  	font-size: 10vh;
+    color: #4265f4;
+  }
+  
+  .voilent
+  {
+    background-color:#A239CA;
+  }
+  .pink
+  {
+    background-color:#B82601;
+  }
+  .posy
+  {
+    background-color:#813772;
+  }
+  .aqua
+  {
+    background-color:#062F4F; 
+  }
+  .set
+  {
+    padding-left: 10%;
+    padding-top: 5%;
+  }
+  .audio
+  {
+    padding-left: 5%;
+    padding-top: 5%;
+    
+  }
+  .set1
+  {
+    padding-left: 9%;
+    padding-top: 8%;
+  }
+  .black
+  {
+    background-color:black; 
+  }
+  .oxy
+  {
+    background-color:#76323F;
+  }
+  .parallax {
+    background-image: url(../images/band.jpg);
+    min-width:80vw; 
+    min-height:80vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1 {
+    background-image: url(../images/equi.png);
+    min-width:80vw; 
+    min-height:80vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2
+{
+  background-image: url(../images/drum1.jpg);
+    min-width:80vw; 
+    min-height:80vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer
+{
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom:1%;
+  background-color:#E52A6F;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 3vh;
+}
